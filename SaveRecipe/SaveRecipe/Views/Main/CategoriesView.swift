@@ -10,8 +10,15 @@ import SwiftUI
 struct CategoriesView: View {
     var body: some View {
         NavigationView {
-            Text("Categories")
-                .navigationTitle("Categories")
+            List(Category.allCases) { category in
+                
+                NavigationLink {
+                    CategoryDetailView(category: category)
+                } label: {
+                    Text(category.rawValue + "s")
+                }
+            }
+            .navigationTitle("Categories")
         }
         .navigationSplitViewStyle(.automatic)
     }

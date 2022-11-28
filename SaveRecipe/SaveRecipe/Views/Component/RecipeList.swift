@@ -13,30 +13,32 @@ struct RecipeList: View {
     private let colomusItem = [GridItem(.adaptive(minimum: 160), spacing: 15)]
     
     var body: some View {
-        VStack {
-            HStack {
-                Text("\(recipes.count) \(recipes.count > 1 ? "recipes" : "recipe")")
-                    .font(.headline)
-                    .fontWeight(.medium)
-                    .opacity(0.7)
-                
-                Spacer()
-            }
-            
-            LazyVGrid(columns: colomusItem, spacing: 15) {
-                ForEach(recipes) { recipe in
-                    NavigationLink {
-                        RecipeDetailView(recipe: recipe)
-                    } label: {
-                        RecipeCard(recipe: recipe)
-                    }
-
+        ScrollView {
+            VStack {
+                HStack {
+                    Text("\(recipes.count) \(recipes.count > 1 ? "recipes" : "recipe")")
+                        .font(.headline)
+                        .fontWeight(.medium)
+                        .opacity(0.7)
+                    
+                    Spacer()
                 }
+                
+                LazyVGrid(columns: colomusItem, spacing: 15) {
+                    ForEach(recipes) { recipe in
+                        NavigationLink {
+                            RecipeDetailView(recipe: recipe)
+                        } label: {
+                            RecipeCard(recipe: recipe)
+                        }
+
+                    }
+                }
+                .padding(.top)
+                
             }
-            .padding(.top)
-            
+            .padding(.horizontal)
         }
-        .padding(.horizontal)
     }
 }
 
