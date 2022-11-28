@@ -17,6 +17,8 @@
 		ACB1C31429355AFC0095D43A /* CategoriesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACB1C31329355AFC0095D43A /* CategoriesView.swift */; };
 		ACB1C31629355B060095D43A /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACB1C31529355B060095D43A /* HomeView.swift */; };
 		ACB1C31829355CF90095D43A /* TabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACB1C31729355CF90095D43A /* TabBar.swift */; };
+		ACB1C31A29355FFA0095D43A /* RecipeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACB1C31929355FFA0095D43A /* RecipeModel.swift */; };
+		ACB1C31C2935602F0095D43A /* CategoriesEnum.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACB1C31B2935602F0095D43A /* CategoriesEnum.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +33,8 @@
 		ACB1C31329355AFC0095D43A /* CategoriesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoriesView.swift; sourceTree = "<group>"; };
 		ACB1C31529355B060095D43A /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		ACB1C31729355CF90095D43A /* TabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBar.swift; sourceTree = "<group>"; };
+		ACB1C31929355FFA0095D43A /* RecipeModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeModel.swift; sourceTree = "<group>"; };
+		ACB1C31B2935602F0095D43A /* CategoriesEnum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoriesEnum.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +105,8 @@
 		ACB1C30729355A370095D43A /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				ACB1C31929355FFA0095D43A /* RecipeModel.swift */,
+				ACB1C31B2935602F0095D43A /* CategoriesEnum.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -211,6 +217,8 @@
 				ACB1C30E29355ABB0095D43A /* SettingsView.swift in Sources */,
 				ACB1C2FA293559E70095D43A /* ContentView.swift in Sources */,
 				ACB1C2F8293559E70095D43A /* SaveRecipeApp.swift in Sources */,
+				ACB1C31C2935602F0095D43A /* CategoriesEnum.swift in Sources */,
+				ACB1C31A29355FFA0095D43A /* RecipeModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
