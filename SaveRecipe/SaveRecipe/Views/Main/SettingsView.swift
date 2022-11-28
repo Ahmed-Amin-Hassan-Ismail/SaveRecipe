@@ -13,6 +13,7 @@ struct SettingsView: View {
             Text("V1.0.0")
                 .navigationTitle("Settings")
         }
+        .navigationSplitViewStyle(.automatic)
     }
 }
 

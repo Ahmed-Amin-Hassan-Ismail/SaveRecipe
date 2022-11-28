@@ -13,6 +13,7 @@ struct NewRecipeView: View {
             Text("New Recips")
                 .navigationTitle("New Recipe")
         }
+        .navigationSplitViewStyle(.automatic)
     }
 }
 

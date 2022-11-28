@@ -13,6 +13,7 @@ struct HomeView: View {
             Text("My Recips")
                 .navigationTitle("My Recips")
         }
+        .navigationSplitViewStyle(.automatic)
     }
 }
 
