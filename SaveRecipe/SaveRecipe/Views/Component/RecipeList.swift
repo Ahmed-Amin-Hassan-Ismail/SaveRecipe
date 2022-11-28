@@ -25,7 +25,12 @@ struct RecipeList: View {
             
             LazyVGrid(columns: colomusItem, spacing: 15) {
                 ForEach(recipes) { recipe in
-                    RecipeCard(recipe: recipe)
+                    NavigationLink {
+                        RecipeDetailView(recipe: recipe)
+                    } label: {
+                        RecipeCard(recipe: recipe)
+                    }
+
                 }
             }
             .padding(.top)
