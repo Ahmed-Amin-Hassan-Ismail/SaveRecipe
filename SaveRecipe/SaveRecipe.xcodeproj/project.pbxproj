@@ -19,6 +19,8 @@
 		ACB1C31829355CF90095D43A /* TabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACB1C31729355CF90095D43A /* TabBar.swift */; };
 		ACB1C31A29355FFA0095D43A /* RecipeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACB1C31929355FFA0095D43A /* RecipeModel.swift */; };
 		ACB1C31C2935602F0095D43A /* CategoriesEnum.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACB1C31B2935602F0095D43A /* CategoriesEnum.swift */; };
+		ACB1C31E293563CE0095D43A /* RecipeCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACB1C31D293563CE0095D43A /* RecipeCard.swift */; };
+		ACB1C320293567720095D43A /* RecipeList.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACB1C31F293567720095D43A /* RecipeList.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,6 +37,8 @@
 		ACB1C31729355CF90095D43A /* TabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBar.swift; sourceTree = "<group>"; };
 		ACB1C31929355FFA0095D43A /* RecipeModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeModel.swift; sourceTree = "<group>"; };
 		ACB1C31B2935602F0095D43A /* CategoriesEnum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoriesEnum.swift; sourceTree = "<group>"; };
+		ACB1C31D293563CE0095D43A /* RecipeCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeCard.swift; sourceTree = "<group>"; };
+		ACB1C31F293567720095D43A /* RecipeList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeList.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -135,6 +139,8 @@
 		ACB1C30A29355A500095D43A /* Component */ = {
 			isa = PBXGroup;
 			children = (
+				ACB1C31D293563CE0095D43A /* RecipeCard.swift */,
+				ACB1C31F293567720095D43A /* RecipeList.swift */,
 			);
 			path = Component;
 			sourceTree = "<group>";
@@ -216,8 +222,10 @@
 				ACB1C31429355AFC0095D43A /* CategoriesView.swift in Sources */,
 				ACB1C30E29355ABB0095D43A /* SettingsView.swift in Sources */,
 				ACB1C2FA293559E70095D43A /* ContentView.swift in Sources */,
+				ACB1C320293567720095D43A /* RecipeList.swift in Sources */,
 				ACB1C2F8293559E70095D43A /* SaveRecipeApp.swift in Sources */,
 				ACB1C31C2935602F0095D43A /* CategoriesEnum.swift in Sources */,
+				ACB1C31E293563CE0095D43A /* RecipeCard.swift in Sources */,
 				ACB1C31A29355FFA0095D43A /* RecipeModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
