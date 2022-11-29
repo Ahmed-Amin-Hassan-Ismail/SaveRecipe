@@ -8,9 +8,10 @@
 import SwiftUI
 
 struct HomeView: View {
+    @EnvironmentObject private var recipesViewModel: RecipesViewModel
     var body: some View {
         NavigationView {
-            RecipeList(recipes: Recipe.all)            
+            RecipeList(recipes: recipesViewModel.recipes)
                 .navigationTitle("My Recips")
         }
         .navigationSplitViewStyle(.automatic)
@@ -20,5 +21,6 @@ struct HomeView: View {
 struct HomeView_Previews: PreviewProvider {
     static var previews: some View {
         HomeView()
+            .environmentObject(RecipesViewModel())
     }
 }

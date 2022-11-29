@@ -13,6 +13,9 @@ struct AddNewRecipeDetailView: View {
     @State private var discriptionTF: String = ""
     @State private var ingredientsTF: String = ""
     @State private var directorTF: String = ""
+    @State private var NavigateToRecipeView: Bool = false
+    
+    @Environment(\.dismiss) var dismiss
     
     var body: some View {
         NavigationView {
@@ -51,19 +54,23 @@ struct AddNewRecipeDetailView: View {
             .toolbar {
                 ToolbarItem(placement: .navigationBarLeading) {
                     Button {
-                        
+                        dismiss()
                     } label: {
                         Image(systemName: "xmark")
                     }
                 }
                 
                 ToolbarItem(placement: .navigationBarTrailing) {
-                    Button {
+                    NavigationLink(isActive: $NavigateToRecipeView) {
                         
                     } label: {
-                        Image(systemName: "checkmark")
+                        Button {
+                            
+                        } label: {
+                            Image(systemName: "checkmark")
+                        }
+                        .disabled(nameTF.isEmpty)
                     }
-                    .disabled(nameTF.isEmpty)
                 }
             }
         }

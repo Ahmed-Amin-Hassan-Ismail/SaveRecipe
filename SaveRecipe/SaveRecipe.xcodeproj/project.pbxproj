@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 56;
+	objectVersion = 55;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -24,6 +24,7 @@
 		ACB1C32229356C4C0095D43A /* RecipeDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACB1C32129356C4C0095D43A /* RecipeDetailView.swift */; };
 		ACB1C324293571DC0095D43A /* CategoryDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACB1C323293571DC0095D43A /* CategoryDetailView.swift */; };
 		ACDCC8472936833E00AE45B4 /* AddNewRecipeDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACDCC8462936833E00AE45B4 /* AddNewRecipeDetailView.swift */; };
+		ACDCC849293694B300AE45B4 /* RecipesViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACDCC848293694B300AE45B4 /* RecipesViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -45,6 +46,7 @@
 		ACB1C32129356C4C0095D43A /* RecipeDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeDetailView.swift; sourceTree = "<group>"; };
 		ACB1C323293571DC0095D43A /* CategoryDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryDetailView.swift; sourceTree = "<group>"; };
 		ACDCC8462936833E00AE45B4 /* AddNewRecipeDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddNewRecipeDetailView.swift; sourceTree = "<group>"; };
+		ACDCC848293694B300AE45B4 /* RecipesViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipesViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -108,6 +110,7 @@
 		ACB1C30629355A320095D43A /* ViewModels */ = {
 			isa = PBXGroup;
 			children = (
+				ACDCC848293694B300AE45B4 /* RecipesViewModel.swift */,
 			);
 			path = ViewModels;
 			sourceTree = "<group>";
@@ -190,7 +193,7 @@
 				};
 			};
 			buildConfigurationList = ACB1C2EF293559E70095D43A /* Build configuration list for PBXProject "SaveRecipe" */;
-			compatibilityVersion = "Xcode 14.0";
+			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -232,6 +235,7 @@
 				ACB1C31829355CF90095D43A /* TabBar.swift in Sources */,
 				ACB1C324293571DC0095D43A /* CategoryDetailView.swift in Sources */,
 				ACB1C31429355AFC0095D43A /* CategoriesView.swift in Sources */,
+				ACDCC849293694B300AE45B4 /* RecipesViewModel.swift in Sources */,
 				ACB1C30E29355ABB0095D43A /* SettingsView.swift in Sources */,
 				ACB1C2FA293559E70095D43A /* ContentView.swift in Sources */,
 				ACB1C320293567720095D43A /* RecipeList.swift in Sources */,
@@ -295,7 +299,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -349,7 +353,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -375,6 +379,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -404,6 +409,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

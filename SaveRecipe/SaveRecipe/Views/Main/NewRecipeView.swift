@@ -8,11 +8,20 @@
 import SwiftUI
 
 struct NewRecipeView: View {
+    @State private var showAddNewRecipe: Bool = false
+    
     var body: some View {
         NavigationView {
-            Text("New Recips")
-                .navigationTitle("New Recipe")
+            Button(action: {
+                self.showAddNewRecipe = true
+            }, label: {
+                Text("Add New Recipe")
+            })
+            .navigationTitle("New Recipe")
         }
+        .sheet(isPresented: $showAddNewRecipe, content: {
+            AddNewRecipeDetailView()
+        })
         .navigationSplitViewStyle(.automatic)
     }
 }
