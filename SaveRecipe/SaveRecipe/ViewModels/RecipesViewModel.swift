@@ -15,4 +15,8 @@ final class RecipesViewModel: ObservableObject {
     init() {
         self.recipes = Recipe.all
     }
+    
+    func saveNewRecipe(recipe: Recipe) {
+        self.recipes.append(recipe)
+    }
 }
