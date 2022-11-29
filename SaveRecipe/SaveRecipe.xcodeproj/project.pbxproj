@@ -23,6 +23,7 @@
 		ACB1C320293567720095D43A /* RecipeList.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACB1C31F293567720095D43A /* RecipeList.swift */; };
 		ACB1C32229356C4C0095D43A /* RecipeDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACB1C32129356C4C0095D43A /* RecipeDetailView.swift */; };
 		ACB1C324293571DC0095D43A /* CategoryDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACB1C323293571DC0095D43A /* CategoryDetailView.swift */; };
+		ACDCC8472936833E00AE45B4 /* AddNewRecipeDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACDCC8462936833E00AE45B4 /* AddNewRecipeDetailView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -43,6 +44,7 @@
 		ACB1C31F293567720095D43A /* RecipeList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeList.swift; sourceTree = "<group>"; };
 		ACB1C32129356C4C0095D43A /* RecipeDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeDetailView.swift; sourceTree = "<group>"; };
 		ACB1C323293571DC0095D43A /* CategoryDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryDetailView.swift; sourceTree = "<group>"; };
+		ACDCC8462936833E00AE45B4 /* AddNewRecipeDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddNewRecipeDetailView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -138,6 +140,7 @@
 			children = (
 				ACB1C32129356C4C0095D43A /* RecipeDetailView.swift */,
 				ACB1C323293571DC0095D43A /* CategoryDetailView.swift */,
+				ACDCC8462936833E00AE45B4 /* AddNewRecipeDetailView.swift */,
 			);
 			path = Detail;
 			sourceTree = "<group>";
@@ -225,6 +228,7 @@
 				ACB1C31629355B060095D43A /* HomeView.swift in Sources */,
 				ACB1C32229356C4C0095D43A /* RecipeDetailView.swift in Sources */,
 				ACB1C31229355AF20095D43A /* NewRecipeView.swift in Sources */,
+				ACDCC8472936833E00AE45B4 /* AddNewRecipeDetailView.swift in Sources */,
 				ACB1C31829355CF90095D43A /* TabBar.swift in Sources */,
 				ACB1C324293571DC0095D43A /* CategoryDetailView.swift in Sources */,
 				ACB1C31429355AFC0095D43A /* CategoriesView.swift in Sources */,
